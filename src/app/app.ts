@@ -1,7 +1,7 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { Expense, Settlement, User } from '../model/model';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { Expense, Settlement, User } from '../model/model';
   styleUrl: './app.css'
 })
 export class App {
-   // User Management
+    // User Management
   users: User[] = [];
   newUserName: string = '';
 

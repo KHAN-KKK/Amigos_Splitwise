@@ -1,13 +1,12 @@
 {
-  "name": "amigos-spitwise",
+  "name": "amigos-splitwise",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy": "ng build --configuration production --base-href /Amigos_SplitWise/ && npx gh-pages -d dist/Splitwise"
+    "test": "ng test"
   },
   "prettier": {
     "printWidth": 100,
